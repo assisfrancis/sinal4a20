@@ -7,7 +7,11 @@ import MyMenu
 
 def main():
     # MyMenu.mostraMenu()
-     MyMenu.mainMenu()
+    print("--------------------------")
+    print("Sinal 4 a 20 mA: ")
+    MyMenu.mainMenu()
+    
+    print("--------------------------")
 
 
 main()

@@ -16,4 +16,15 @@ def calcularPercnetual(a,b,c,d,e):
     vl2 = a * e
     perc =( vl2 - vl1) / (b-c)   
     return perc
-    
+
+def percaCobre(a,b,c,d):
+    pc = (((a**2) * b) + ((c**2) * d))
+    return pc
+  
+def ResistenciaSecundario(a,b,c,d):
+     r = (b**2) * c
+     s = (d**2) 
+     rs = (a - r) / s
+     return rs
+ 
+ 
